@@ -1,118 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=content-width, initial-scale=1">
-    </head>
-    <body>
-        <header>
-            <div class="navigation">
-                <nav>
-                    <ul>
-                        <li><a href="#">Çözüm ve Hizmetler</a></li>
-                        <li><a href="#">Ürünler</a></li>
-                        <li><a href="#">Teknolojiler</a></li>
-                        <li><a href="#">İnsan Kaynakları</a></li>
-                        <li><a href="#">Kurumsal</a></li>
-                    </ul>
-                </nav>
-                <button type="button">İletişim</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atsiskaitymas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="d-flex flex-column px-1 py-5 px-md-5">
+      <nav class="navbar navbar-expand-lg align-self-end">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Çözüm ve Hizmetler</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Ürünler</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Teknolojiler</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >İnsan Kaynakları</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Kurumsal</a
+                >
+              </li>
+            </ul>
+            <button type="button" class="btn btn-danger">İletişim</button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-6">
+            <h1 class="fw-bold">Bilgi Teknolojilerinde 23 Yillik Tecrube</h1>
+            <p1 class="lh-lg text-wrap"
+              >Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+              farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+              Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p1
+            >
+
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Mail bültenimize kayıt ol"
+                aria-label="Mail bültenimize kayıt ol"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-danger" type="button" id="button-addon2">
+                Kayit Ol
+              </button>
             </div>
-            <div>
-                <h1>Bilgi Teknolojilerinde 23 Yillik Tecrube</h1>
-                <p1>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p1>
-                <form class="example" action="action_page.php">
-                    <input type="text" placeholder="Mail bulrenimize kayit ol" name="search">
-                    <button type="submit"><i class="fa fa-search"></i>Kayit Ol</button>
-                  </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="products-section">
+        <div class="products1 text-center px-5 py-5">
+          <h3>Kalite ve Süreç Yönetimi</h3>
+          <article>
+            Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+            farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+            Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+          </article>
+        </div>
+        <div class="containers text-center px-5 px-5">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Dokuman Analizi</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
             </div>
-        </header>
-        <main>
-            <section class="container">
-                <div class="products-section">
-                    <div class="products1">
-                        <h2>Kalite ve Süreç Yönetimi</h2>
-                            <article>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</article>
-                        <h3>Dokuman Analizi</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                        <h3>Kabul ve Degerlendirme</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                        <h3>Paydas Analizi</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                        <h3>Akis Diyagramlari</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                        <h3>Prototipleme</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                        <h3>Is Kurallari Analizi</h3>
-                            <p>Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus ament, elementum.</p>
-                    </div>
-                   
-                    <div class="products2">
-                        <h2>Test Yonetimiyle Neler Sagliyoruz</h2>
-                        <p>Yazılım Kalitesini Arttırıyoruz</p>
-                        <p>Olası Hataları Önceden Belirliyoruz</p>
-                        <p>Oluşabilecek Riskleri Önlüyoruz</p>
-                        <p>Zaman ve Maliyetten Tasarruf Sağlıyoruz</p>
-                    </div>
-
-                    <div class="products3">
-                        <h2>Kalite ve Süreç Yönetimi</h2>
-                            <p>Deneyimli kadromuz; bricok farkli sektorden deneyimli, PMP sertifikasina sahip, uzman proje yonetimine destek olmak, zayif oldugunu dusundugunuz alanlari guclendirmek, ulkuslararasi gecerliligi olan PMI metodolojisini sirketinidze uygulamak ve gelistirmek icin yaninizdayiz.</p>
-                            <button type="submit">Kesfet</button>
-                    </div>
-
-                    <div class="products4">
-                        <h2>Kalite ve Süreç Yönetimi</h2>
-                            <p>Deneyimli kadromuz; bricok farkli sektorden deneyimli, PMP sertifikasina sahip, uzman proje yonetimine destek olmak, zayif oldugunu dusundugunuz alanlari guclendirmek, ulkuslararasi gecerliligi olan PMI metodolojisini sirketinidze uygulamak ve gelistirmek icin yaninizdayiz.</p>
-                            <button type="submit">Kesfet</button>
-                    </div>
-
-                    <div class="products5">
-                        <h2>Referanslarımız</h2>
-                            <p>Bize guvenen ve baraber calistigimiz is ortaklarimiz</p>
-                    </div>
-
-                    <div class="products6">
-                        <h2>Bize Ulasin</h2>
-                            <p>Cozum, hizmet ve urunlerimiz hakkinda detayli bilgi icin bizimle irtibata gecin.</p>
-                            <button type="submit">Bize Ulasin</button>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <div class="footer">
-            <h4>Cozum ve Hizmetler</h4>
-                <ul>
-                    <li><a href="#">Yazilim Gelistrime</a></li>
-                    <li><a href="#">Outsourcing</a></li>
-                    <li><a href="#">Kalite ve Surec Yonetimi</a></li>
-                    <li><a href="#">Danismanlik</a></li>
-                    <li><a href="#">IoT Destekli Cozumler</a></li>
-                </ul>
-            <h4>Urunler</h4>
-                <ul>
-                    <li><a href="#">Egitim Yonetim Sistemi</a></li>
-                    <li><a href="#">Insan Sermayesi Yonetim Sistemi</a></li>
-                    <li><a href="#">Kalite ve Surec Yonetimi</a></li>
-                    <li><a href="#">Musteri Iliskileri Yonetim Sistemi</a></li>
-                    <li><a href="#">Icerik Yonetim Sistemi</a></li>
-                </ul>
-            <h4>Kurumsal</h4>
-                <ul>
-                    <li><a href="#">Hakkimizda</a></li>
-                    <li><a href="#">Belge ve Yetkinliker</a></li>
-                    <li><a href="#">Is Ortaklari</a></li>
-                </ul>
-            <h4>Kurumsal</h4>
-                <ul>
-                    <li><a href="#">Bilgi Istek Formu</a></li>
-                    <li><a href="#">Uzman Talep/a></li>
-                </ul>  
-            <p>Copyright 2010-2011 - Can Cevik</p>
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Kabul ve Degerlendirme</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Paydas Analizi</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Akis Diyagramlari</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Prototipleme</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 px-5 py-5">
+              <img src="img/png.png" alt="logo" />
+              <h4 class="fs-6">Is Kurallari Analizi</h4>
+              <p>
+                Ante vulputate ut at accumsan et. Feugiat at tempus, est
+                senectus ament, elementum.
+              </p>
+            </div>
+          </div>
         </div>
 
-    </body>
+        <div class="products2 p-5 text-center bg-danger text-white">
+          <h2>Test Yonetimiyle Neler Sagliyoruz</h2>
+          <p>IoT Destekli Cozumler</p>
+          <ul
+            class="d-flex breadcrumb flex-column flex-md-row px-5 py-4 flex-nowrap text-start"
+          >
+            <li
+              class="breadcrumb-item flex-column d-flex flex-md-row align-items-center align-items-md-center"
+            >
+              <a href="#" class="text-dark text-decoration-none w-20 text-white"
+                >Yazılım Kalitesini Arttırıyoruz</a
+              >
+            </li>
+            <li
+              class="breadcrumb-item flex-column d-flex flex-md-row align-items-center align-items-md-center"
+            >
+              <a href="#" class="text-dark text-decoration-none text-white"
+                >Olası Hataları Önceden Belirliyoruz</a
+              >
+            </li>
+            <li
+              class="breadcrumb-item flex-column d-flex flex-md-row align-items-center align-items-md-center"
+            >
+              <a href="#" class="text-dark text-decoration-none text-white"
+                >Oluşabilecek Riskleri Önlüyoruz</a
+              >
+            </li>
+            <li
+              class="breadcrumb-item flex-column d-flex flex-md-row align-items-center align-items-md-center"
+            >
+              <a href="#" class="text-dark text-decoration-none text-white"
+                >Zaman ve Maliyetten Tasarruf Sağlıyoruz</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="products3 p-5">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h2>Kalite ve Süreç Yönetimi</h2>
+              <p>
+                Deneyimli kadromuz; bricok farkli sektorden deneyimli,
+                PMPsertifikasina sahip, uzman proje yonetimine destek olmak,
+                zayif oldugunu dusundugunuz alanlari guclendirmek, ulkuslararasi
+                gecerliligi olan PMI metodolojisini sirketinidze uygulamak ve
+                gelistirmek icin yaninizdayiz.
+              </p>
+              <button type="submit" class="btn btn-danger">Kesfet</button>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="img/fir.png" alt="Photo" class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6 order-last">
+              <h2>Kalite ve Süreç Yönetimi</h2>
+              <p>
+                Deneyimli kadromuz; bricok farkli sektorden deneyimli,
+                PMPsertifikasina sahip, uzman proje yonetimine destek olmak,
+                zayif oldugunu dusundugunuz alanlari guclendirmek, ulkuslararasi
+                gecerliligi olan PMI metodolojisini sirketinidze uygulamak ve
+                gelistirmek icin yaninizdayiz.
+              </p>
+              <button type="submit" class="btn btn-danger">Kesfet</button>
+            </div>
+            <div class="col-12 col-md-6 order-first">
+              <img src="img/sec.png" alt="Photo" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+
+        <div class="products5 text-center px-5 py-5 bg-secondary-subtle">
+          <h2>Referanslarımız</h2>
+          <p>Bize guvenen ve baraber calistigimiz is ortaklarimiz</p>
+          <div class="row justify-content-center align-items-center">
+            <div class="col">
+              <div>
+                <img src="img/akbank.png" alt="Akbank" />
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="img/seb.png" alt="Seb" />
+              </div>
+              <div>
+                <img src="img/swedbank.png" alt="Swedbank" />
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="img/sbankas.jpg" alt="SiauliuBankas" />
+              </div>
+              <div>
+                <img src="img/luminor.jpg" alt="Luminor" />
+              </div>
+              <div>
+                <img src="img/amazon.png" alt="Amazon" />
+              </div>
+            </div>
+            <div class="col">
+              <div>
+                <img src="img/visa.png" alt="Visa" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products6 text-center px-5 py-5">
+          <h2>Bize Ulasin</h2>
+          <p>
+            Cozum, hizmet ve urunlerimiz hakkinda detayli bilgi icin bizimle
+            irtibata gecin.
+          </p>
+          <button type="submit" class="btn btn-danger">Bize Ulasin</button>
+        </div>
+      </div>
+    </main>
+    <footer class="p-3 mb-2 bg-danger text-white">
+      <ul
+        class="d-flex list-group flex-column flex-md-row px-5 py-4 list-group-flush"
+      >
+        <li class="list-group-item w-20">
+          <h4 class="text-white">Cozum ve Hizmetler</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Yazilim Gelistrime</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Outsourcing</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Kalite ve Surec Yonetimi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Danismanlik</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >IoT Destekli Cozumler</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="list-group-item w-20">
+          <h4 class="text-white">Urunler</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Egitim Yonetim Sistemi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Insan Sermayesi Yonetim Sistemi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Kalite ve Surec Yonetimi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Musteri Iliskileri Yonetim Sistemi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Icerik Yonetim Sistemi</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="list-group-item w-20">
+          <h4 class="text-white">Kurumsal</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none">Hakkimizda</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Belge ve Yetkinliker</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a href="#" class="text-white text-decoration-none"
+                >Is Ortaklari</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="list-group-item w-20">
+          <h4 class="text-white">Kurumsal</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item w-20">
+              <a href="#" class="text-white text-decoration-none"
+                >Bilgi Istek Formu</a
+              >
+            </li>
+            <li class="list-group-item w-20">
+              <a href="#" class="text-white text-decoration-none"
+                >Uzman Talep</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p class="row row-cols-2">Copyright 2010-2011 - Can Cevik</p>
+    </footer>
+  </body>
 </html>
